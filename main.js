@@ -2,17 +2,15 @@
 const CONFIG = {
   STORAGE_KEY: "trading_checklist_v5",
   TASKS: [
-    "Trending market confirmed (not sideways)",
-    "Higher timeframe alignment verified",
-    "Aggressive break of structure identified",
-    "Second wave confirmation (avoid first break)",
-    "Fair Value Gap marked in discount area",
-    "FVG aligns with 70-75% Fibonacci zone",
-    "Fibonacci retracement applied correctly",
-    "Entry zone at 70-75% retracement",
-    "Corrective retracement confirmed",
-    "Stop loss and take profit set (1:2 RR)",
-    "No correlated pairs traded simultaneously",
+    "Check trend on 4H & draw Fibonacci if zone aligns; set alert",
+    "Check trend on 1H & draw Fibonacci if zone aligns; set alert",
+    "Check trend on 15 Min & draw Fibonacci if zone aligns; set alert",
+    "If any alert triggers, check Support & Resistance levels",
+    "For 4H use 15 Min, for 1H use 5 Min, for 15 Min use 1 Min",
+    "Switch the timeframe for confirmation before entry",
+    "Draw Fibonacci for reversal (low → high) and (high → low)",
+    "Enter at 69% (2nd TF), set Stop Loss at 88.30% (1st TF)",
+    "Risk max 1% of the account, set Take Profit between 1:3 and 1:5"
   ],
   RULES: ["FIRST RULE: FOLLOW THE RULES", "SECOND RULE: FOLLOW THE FIRST RULE"],
   SESSIONS: {
